@@ -1,0 +1,33 @@
+h1 {
+	text-decoration:underline;
+}
+
+#header {
+	position:absolute;
+	top: 20%;
+	left: 12%;
+	z-index: 10;
+	/* tentative */
+	/*border: 1px solid white;*/
+}
+
+#navigation ul li a {
+	color: white;
+	font-size: 17px;
+}
+
+#navigation ul li a:hover {
+	color: black;
+}
+
+#navigation ul, #navigation ul li{
+	width: 100%;
+}
+
+#navigation ul li{
+	border: 1px solid white;
+}
+
+#content {
+	border: 1px solid white;
+}
