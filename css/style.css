@@ -1,6 +1,6 @@
-h1 {
+/*h1 {
 	text-decoration:underline;
-}
+}*/
 
 #header {
 	position:absolute;
@@ -14,9 +14,11 @@ h1 {
 #navigation ul li a {
 	color: white;
 	font-size: 17px;
+	font-family: 'Josefin Slab', serif;
 }
 
 #navigation ul li a:hover {
+	transition: 0.4s;
 	color: black;
 }
 

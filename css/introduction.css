@@ -1,0 +1,51 @@
+#introduction .company-name {
+	position:absolute;
+	height: 100px;
+	width: 700px;
+	top: 8%;
+	left: 30%;
+	border-bottom: 1px solid white;
+}
+
+#introduction .company-name .main {
+	font-family: 'Vollkorn SC', serif;
+	font-size: 100px;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
+#introduction .company-name .dev {
+	font-family: 'Corben', cursive;
+	font-size: 28px;
+	position: absolute;
+	left: 55%;
+	top: 15%;
+}
+
+#introduction .company-name .training {
+	font-family: 'Corben', cursive;
+	font-size: 28px;
+	position: absolute;
+	left: 55%;
+	top: 55%;
+}
+
+#introduction .company-about {
+	position: absolute;
+	text-indent: 25px;
+}
+
+.company-about.para1 {
+	top: 50%;
+	left: 30%;
+}
+
+.company-about.para2 {
+	top: 70%;
+	left: 20%;
+}
+
+#introduction {
+	height: inherit;
+}
